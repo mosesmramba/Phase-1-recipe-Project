@@ -1,0 +1,36 @@
+{
+  "RECIPES": [
+    {
+      "id": 1,
+      "Name": "Beef Burger",
+      "Description": "A patty of ground beef grilled and placed between two halves of a bun. Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor",
+      "Ingredients": "1 tbsp,1 onion,500g beef steak mince,1 tsp mixed dried herbs,1 egg, beaten,4 slices mature Cheddar,4 white rolls,few round lettuce leaves,1 tomato sliced,ketchup to serve",
+      "Method": "Heat the olive oil in a frying pan, add the onion and cook for 5 minutes until softened and starting to turn golden. Set aside.In a bowl, combine the beef mince with the herbs and the egg. Season, add the onions and mix well. Using your hands, shape into 4 patties.cook the burgers on a preheated barbecue or griddle for 5-6 minutes on each side. While the second side is cooking, lay a slice of cheese on top to melt slightly (if using).Meanwhile, lightly toast the cut-sides of the buns on the barbecue. Fill with the lettuce, burgers and tomato slices. Serve with ketchup, if you like.",
+      "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmVlZiUyMGJ1cmdlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+    },
+    {
+      "id": 2,
+      "Name": "Mashed Potatoes",
+      "Description": "Made with Idaho potatoes, milk, butter, and optional garlic, this go-to recipe makes a classic holiday dish.",
+      "Ingredients": "2 pounds baking potatoes, peeled and quartered,3 cloves garlic, peeled, or to taste,1 cup milk,2 tablespoons butter,salt and ground black pepper to taste.",
+      "Method": "Bring a large pot of salted water to a boil. Add potatoes and garlic, lower heat to medium, and simmer until potatoes are tender, 15 to 20 minutes.When the potatoes are almost finished, heat milk and butter in a small saucepan over low heat until butter is melted.Drain potatoes and return to the pot. Slowly add warm milk mixture, blending it in with a potato masher or electric mixer until potatoes are smooth and creamy. Season with salt and pepper.",
+      "image": "https://images-gmi-pmc.edge-generalmills.com/d9bd94d8-0142-42d1-ab9e-1ed9325a2a63.jpg"
+    },
+    {
+      "id": 3,
+      "Name": "Cacio e pepe",
+      "Description": "Cacio e pepe means cheese and pepper in several central Italian dialects. In keeping with its name, the dish contains grated Pecorino Romano cheese and black pepper, together with spaghetti",
+      "Ingredients": "200g bucatini or spaghetti,25g butter, tsp freshly ground black pepper,50g pecorino or parmesan, finely grated.",
+      "Method": "Cook the pasta for 2 mins less than pack instructions state, in salted boiling water,Meanwhile, melt the butter in a medium frying pan over a low heat, then add the ground black pepper and toast for a few minutes,Drain the pasta, keeping 200ml of the pasta water. Tip the pasta and 100ml of the pasta water into the pan with the butter and pepper,Toss briefly, then scatter over the parmesan evenly, but don’t stir – wait for the cheese to melt for 30 seconds, then once melted, toss everything well, and stir together,",
+      "image": "https://www.seriouseats.com/thmb/px_e8tCpfU7pcNvn4-j3bzQ9kGI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/spaghetti-cacio-e-pepe-recipe-hero-02_1-70880518badb4d428f5d5b03d303fabc.JPG"
+    },
+    {
+      "Name": "Scrambled Eggs",
+      "Description": "Scrambled eggs are one of the little luxuries of everyday life,A quick breakfast packed with protein.",
+      "Ingredients": "2 large eggs,full cream milk,a knob of butter",
+      "Method": "Lightly whisk 2 large eggs, 6 tbsp single cream or full cream milk and a pinch of salt together until the mixture has just one consistency.Heat a small non-stick frying pan for a minute or so, then add a knob of butter and let it melt.Pour in the egg mixture and let it sit, without stirring, for 20 seconds. Stir with a wooden spoon, lifting and folding it over from the bottom of the pan.Repeat until the eggs are softly set and slightly runny in places.Give a final stir and serve the velvety scramble without delay.",
+      "image": "https://static01.nyt.com/images/2021/02/24/dining/19Kenjirex/merlin_183955200_c2bc0f52-9ed8-495d-a7db-217cc8a201a6-superJumbo.jpg",
+      "id": 4
+    }
+  ]
+}
