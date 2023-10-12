@@ -19,7 +19,10 @@ body{
   background-color: rgb(255, 255, 255);
   padding: 10px;
 }
-
+#pLine{
+  display: flex;
+  justify-content: center;
+}
 #all-recipes{
   width: 40%;
 }

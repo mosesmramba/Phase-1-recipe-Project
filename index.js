@@ -113,7 +113,7 @@ function deleteRecipe(x){
      const upd_Ingredients=document.getElementById("upd_Ingredients").value;
      const upd_Method=document.getElementById("upd_Method").value;
      const upd_Image_url=document.getElementById("upd_Image_url").value;
-//updating using PATCH 
+//updating a recipe using PATCH 
      fetch(`http://localhost:3000/RECIPES/${x}`,{
         method:"PATCH",
         body:JSON.stringify({
