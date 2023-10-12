@@ -6,7 +6,7 @@ body{
 #header{
   display: flex;
   justify-content: center;
-  background-color: blanchedalmond;
+  background-color: rgb(201, 185, 151);
   padding: 5px;
   border-radius: 10px;
   margin: 10px;
@@ -16,7 +16,7 @@ body{
 #display{
   gap: 8px;
   display: flex;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   padding: 10px;
 }
 #pLine{
@@ -29,7 +29,7 @@ body{
 
 #one_recipe{
   font-size: larger;
-  background-color:blanchedalmond;
+  background-color: rgb(201, 185, 151);
   width: 60%;
   padding: 5px;
   border-radius: 10px;
@@ -80,7 +80,7 @@ body{
 footer{
   height: 190px;
   border-radius: 10px;
-  background-color:blanchedalmond;
+  background-color:rgb(201, 185, 151);
   color: rgb(0, 0, 0);
   padding: 5%;
   font-weight: 100;
