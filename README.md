@@ -10,9 +10,6 @@
     - The run your index.html by either using the "GO LIVE" extension or by double clicking of the index.html
     - And your application will run.
        
-## Known Bugs
-    The application images dissapears in heroku
-    Otherwise application works perfectly well, no bugs.
 
 ## Technologies used
     - HTML
