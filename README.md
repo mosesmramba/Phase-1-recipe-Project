@@ -9,7 +9,13 @@
     - Then run "json-server --watch database.json" to run our server.
     - The run your index.html by either using the "GO LIVE" extension or by double clicking of the index.html
     - And your application will run.
-       
+
+## Features
+A user can view all recipes
+A user can create a new recipe
+A user can delete delete a recipe
+A user can update a recipe
+
 
 ## Technologies used
     - HTML
