@@ -20,7 +20,7 @@ fetch("https://recipe-javascript.onrender.com/RECIPES",{
 //displaying a specific food recipe 
 function displayFoodRecipe(x){
  
- fetch(`http://localhost:3000/RECIPES/${x}`,{
+ fetch(`https://recipe-javascript.onrender.com/RECIPES/${x}`,{
   method:"GET"
 })
 .then((response)=>response.json())
@@ -43,7 +43,7 @@ function displayFoodRecipe(x){
 //Deleting a specific food recipe 
 function deleteRecipe(x){
  
-  fetch(`http://localhost:3000/RECIPES/${x}`,{
+  fetch(`https://recipe-javascript.onrender.com/RECIPES/${x}`,{
    method:"DELETE"
  })
  .then((response)=>response.json())
@@ -64,7 +64,7 @@ function deleteRecipe(x){
      const Method=document.getElementById("Method").value;
      const Image_url=document.getElementById("Image_url").value;
 
-     fetch(`http://localhost:3000/RECIPES`,{
+     fetch(`https://recipe-javascript.onrender.com/RECIPES`,{
   method:"POST",
   body:JSON.stringify({
      Name:Name,
@@ -87,7 +87,7 @@ function deleteRecipe(x){
 
  //Edit will recieve the id fetch a specific recipe and add it to a form
   function edit(x){
-    fetch(`http://localhost:3000/RECIPES/${x}`,{
+    fetch(`https://recipe-javascript.onrender.com/RECIPES/${x}`,{
    method:"GET"
  })
  .then((response)=>response.json())
@@ -114,7 +114,7 @@ function deleteRecipe(x){
      const upd_Method=document.getElementById("upd_Method").value;
      const upd_Image_url=document.getElementById("upd_Image_url").value;
 //updating a recipe using PATCH 
-     fetch(`http://localhost:3000/RECIPES/${x}`,{
+     fetch(`https://recipe-javascript.onrender.com/RECIPES/${x}`,{
         method:"PATCH",
         body:JSON.stringify({
          Name:upd_Name,
