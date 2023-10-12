@@ -16,6 +16,12 @@ A user can create a new recipe
 A user can delete delete a recipe
 A user can update a recipe
 
+## Usage
+Food list is on the left.
+Click on desired food to display its recipe which consists of its decription,ingredients and cooking method.
+Click create to create a recipe
+Click delete to delete a recipe 
+Click edit to update a recipe
 
 ## Technologies used
     - HTML
