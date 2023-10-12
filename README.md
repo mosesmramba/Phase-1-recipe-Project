@@ -11,7 +11,7 @@
     - And your application will run.
 
 ## Live Link
-Deployed Frontend can be accessed here[RECIPES]http://127.0.0.1:5500/index.html
+Deployed Frontend can be accessed here[RECIPES](http://127.0.0.1:5500/index.html)
 
 ## Features
 A user can view all recipes
