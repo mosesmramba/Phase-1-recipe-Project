@@ -18,7 +18,7 @@
     - HTML
     - CSS
     - JAVA SCRIPT
-    - DB.JSON
+    - FONT AWESOME
 
 ## Support and contact details
     - email :: moses.mramba@student.moringaschool.com
