@@ -1,5 +1,5 @@
 //getting all the data
-fetch("http://localhost:3000/RECIPES",{
+fetch("https://recipe-javascript.onrender.com/RECIPES",{
   method:"GET"
 })
 .then((response)=>response.json())
