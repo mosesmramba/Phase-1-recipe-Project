@@ -12,8 +12,8 @@ fetch("https://recipe-javascript.onrender.com/RECIPES",{
     all_recipes.innerHTML += `<div id="food">
     <img onclick="displayFoodRecipe(${element.id})" src ="${element.image}"
     <h6>${element.Name}</h6>
-    <button onclick="deleteRecipe(${element.id})" id="DelBtn">DELETE</button>
-    <button onclick="edit(${element.id})" id="UpdBtn">EDIT</button>
+    <button onclick="deleteRecipe(${element.id})" id="DelBtn">DELETE RECIPE</button>
+    <button onclick="edit(${element.id})" id="UpdBtn">EDIT RECIPE</button>
     </div>`
   })
 })
@@ -102,7 +102,7 @@ function deleteRecipe(x){
     <input type="text" id="upd_Ingredients" value="${data.Ingredients}" placeholder="ENTER INGREDIENTS LIST">
     <input type="text" id="upd_Method" value="${data.Method}" placeholder="ENTER MAKING METHOD">
     <input type="text" id="upd_Image_url" value="${data.image}" placeholder="ENTER IMAGE URL">
-    <button onclick="update(${x})" type="submit">UPDATE</button>
+    <button onclick="update(${x})" type="submit">UPDATE RECIPE</button>
   </div>
     `
  })
