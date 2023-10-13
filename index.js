@@ -9,7 +9,8 @@ fetch("https://recipe-javascript.onrender.com/RECIPES",{
   const all_recipes=document.getElementById("all-recipes")
 
   data.map((element)=>{
-    all_recipes.innerHTML += `<div id="food">
+    all_recipes.innerHTML += 
+  `<div id="food">
     <img onclick="displayFoodRecipe(${element.id})" src ="${element.image}"
     <h6>${element.Name}</h6>
     <button onclick="deleteRecipe(${element.id})" id="DelBtn">DELETE RECIPE</button>
