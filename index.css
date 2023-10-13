@@ -11,6 +11,13 @@ body{
   border-radius: 10px;
   margin: 10px;
 }
+#Upd{
+  background-color: rgb(197, 152, 100);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  
+}
 
 /*landiing page*/
 #display{
@@ -19,6 +26,7 @@ body{
   background-color: white;
   padding: 10px;
 }
+
 #pLine{
   display: flex;
   justify-content: center;
