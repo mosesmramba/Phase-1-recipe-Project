@@ -12,6 +12,7 @@ body{
   margin: 10px;
 }
 #Upd{
+
   background-color: rgb(197, 152, 100);
   padding: 10px;
   margin: 9px;
@@ -32,7 +33,9 @@ body{
   justify-content: center;
 }
 #all-recipes{
-  width: 40%;
+  background-color: burlywood;
+ display: block;
+
 }
 
 #one_recipe{
