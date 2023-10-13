@@ -13,6 +13,9 @@
 ## Live Link
 Deployed Frontend can be accessed here[RECIPES](https://mosesmramba.github.io/Phase-1-recipe-Project/)
 
+## Known Bugs
+The application images takes a litttle time to load but otherwise works fine.
+
 ## Features
 A user can view all recipes
 A user can create a new recipe
