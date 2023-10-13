@@ -1,3 +1,4 @@
+
 //getting all the data
 fetch("https://recipe-javascript.onrender.com/RECIPES",{
   method:"GET"
@@ -17,7 +18,7 @@ fetch("https://recipe-javascript.onrender.com/RECIPES",{
   })
 })
 
-//displaying a specific food recipe 
+//displaying a specific food recipe using GET method
 function displayFoodRecipe(x){
  
  fetch(`https://recipe-javascript.onrender.com/RECIPES/${x}`,{
@@ -63,7 +64,7 @@ function deleteRecipe(x){
      const Ingredients=document.getElementById("Ingredients").value;
      const Method=document.getElementById("Method").value;
      const Image_url=document.getElementById("Image_url").value;
-
+    //using post method
      fetch(`https://recipe-javascript.onrender.com/RECIPES`,{
   method:"POST",
   body:JSON.stringify({
@@ -85,7 +86,7 @@ function deleteRecipe(x){
   })
 
 
- //Edit will recieve the id fetch a specific recipe and add it to a form
+ //Edit will recieve the id and fetch a specific recipe and add it to a form
   function edit(x){
     fetch(`https://recipe-javascript.onrender.com/RECIPES/${x}`,{
    method:"GET"
